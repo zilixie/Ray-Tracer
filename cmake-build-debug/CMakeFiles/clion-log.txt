@@ -1,0 +1,4 @@
+/Applications/CLion.app/Contents/bin/cmake/mac/bin/cmake -DCMAKE_BUILD_TYPE=Debug -G "CodeBlocks - Unix Makefiles" /Users/xiezili/Desktop/courses/418/exe/computer-graphics-ray-tracing
+-- Configuring done
+-- Generating done
+-- Build files have been written to: /Users/xiezili/Desktop/courses/418/exe/computer-graphics-ray-tracing/cmake-build-debug

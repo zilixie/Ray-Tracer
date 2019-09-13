@@ -1,0 +1,4 @@
+/Users/xiezili/Desktop/courses/418/exe/computer-graphics-ray-tracing/build-release/CMakeFiles/rebuild_cache.dir
+/Users/xiezili/Desktop/courses/418/exe/computer-graphics-ray-tracing/build-release/CMakeFiles/edit_cache.dir
+/Users/xiezili/Desktop/courses/418/exe/computer-graphics-ray-tracing/build-release/CMakeFiles/hw2.dir
+/Users/xiezili/Desktop/courses/418/exe/computer-graphics-ray-tracing/build-release/CMakeFiles/raytracing.dir

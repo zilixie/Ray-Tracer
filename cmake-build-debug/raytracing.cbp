@@ -1,0 +1,183 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CodeBlocks_project_file>
+	<FileVersion major="1" minor="6"/>
+	<Project>
+		<Option title="raytracing"/>
+		<Option makefile_is_custom="1"/>
+		<Option compiler="clang"/>
+		<Option virtualFolders="CMake Files\;"/>
+		<Build>
+			<Target title="all">
+				<Option working_dir="/Users/xiezili/Desktop/courses/418/exe/computer-graphics-ray-tracing/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/Users/xiezili/Desktop/courses/418/exe/computer-graphics-ray-tracing/cmake-build-debug/Makefile&quot;  VERBOSE=1 all"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/Users/xiezili/Desktop/courses/418/exe/computer-graphics-ray-tracing/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/Users/xiezili/Desktop/courses/418/exe/computer-graphics-ray-tracing/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/Users/xiezili/Desktop/courses/418/exe/computer-graphics-ray-tracing/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="rebuild_cache">
+				<Option working_dir="/Users/xiezili/Desktop/courses/418/exe/computer-graphics-ray-tracing/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/Users/xiezili/Desktop/courses/418/exe/computer-graphics-ray-tracing/cmake-build-debug/Makefile&quot;  VERBOSE=1 rebuild_cache"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/Users/xiezili/Desktop/courses/418/exe/computer-graphics-ray-tracing/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/Users/xiezili/Desktop/courses/418/exe/computer-graphics-ray-tracing/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/Users/xiezili/Desktop/courses/418/exe/computer-graphics-ray-tracing/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="edit_cache">
+				<Option working_dir="/Users/xiezili/Desktop/courses/418/exe/computer-graphics-ray-tracing/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/Users/xiezili/Desktop/courses/418/exe/computer-graphics-ray-tracing/cmake-build-debug/Makefile&quot;  VERBOSE=1 edit_cache"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/Users/xiezili/Desktop/courses/418/exe/computer-graphics-ray-tracing/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/Users/xiezili/Desktop/courses/418/exe/computer-graphics-ray-tracing/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/Users/xiezili/Desktop/courses/418/exe/computer-graphics-ray-tracing/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="hw2">
+				<Option output="/Users/xiezili/Desktop/courses/418/exe/computer-graphics-ray-tracing/cmake-build-debug/libhw2.a" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/Users/xiezili/Desktop/courses/418/exe/computer-graphics-ray-tracing/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="2"/>
+				<Option compiler="clang"/>
+				<Compiler>
+					<Add directory="/Users/xiezili/Desktop/courses/418/exe/computer-graphics-ray-tracing/include"/>
+					<Add directory="/Users/xiezili/Desktop/courses/418/exe/computer-graphics-ray-tracing/shared/eigen"/>
+					<Add directory="/Users/xiezili/Desktop/courses/418/exe/computer-graphics-ray-tracing/shared/json"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/include/c++/v1"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/lib/clang/10.0.1/include"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/include"/>
+					<Add directory="/System/Library/Frameworks"/>
+					<Add directory="/Library/Frameworks"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/Users/xiezili/Desktop/courses/418/exe/computer-graphics-ray-tracing/cmake-build-debug/Makefile&quot;  VERBOSE=1 hw2"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/Users/xiezili/Desktop/courses/418/exe/computer-graphics-ray-tracing/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/Users/xiezili/Desktop/courses/418/exe/computer-graphics-ray-tracing/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/Users/xiezili/Desktop/courses/418/exe/computer-graphics-ray-tracing/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="hw2/fast">
+				<Option output="/Users/xiezili/Desktop/courses/418/exe/computer-graphics-ray-tracing/cmake-build-debug/libhw2.a" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/Users/xiezili/Desktop/courses/418/exe/computer-graphics-ray-tracing/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="2"/>
+				<Option compiler="clang"/>
+				<Compiler>
+					<Add directory="/Users/xiezili/Desktop/courses/418/exe/computer-graphics-ray-tracing/include"/>
+					<Add directory="/Users/xiezili/Desktop/courses/418/exe/computer-graphics-ray-tracing/shared/eigen"/>
+					<Add directory="/Users/xiezili/Desktop/courses/418/exe/computer-graphics-ray-tracing/shared/json"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/include/c++/v1"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/lib/clang/10.0.1/include"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/include"/>
+					<Add directory="/System/Library/Frameworks"/>
+					<Add directory="/Library/Frameworks"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/Users/xiezili/Desktop/courses/418/exe/computer-graphics-ray-tracing/cmake-build-debug/Makefile&quot;  VERBOSE=1 hw2/fast"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/Users/xiezili/Desktop/courses/418/exe/computer-graphics-ray-tracing/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/Users/xiezili/Desktop/courses/418/exe/computer-graphics-ray-tracing/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/Users/xiezili/Desktop/courses/418/exe/computer-graphics-ray-tracing/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="raytracing">
+				<Option output="/Users/xiezili/Desktop/courses/418/exe/computer-graphics-ray-tracing/cmake-build-debug/raytracing" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/Users/xiezili/Desktop/courses/418/exe/computer-graphics-ray-tracing/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="clang"/>
+				<Compiler>
+					<Add directory="/Users/xiezili/Desktop/courses/418/exe/computer-graphics-ray-tracing/include"/>
+					<Add directory="/Users/xiezili/Desktop/courses/418/exe/computer-graphics-ray-tracing/shared/eigen"/>
+					<Add directory="/Users/xiezili/Desktop/courses/418/exe/computer-graphics-ray-tracing/shared/json"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/include/c++/v1"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/lib/clang/10.0.1/include"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/include"/>
+					<Add directory="/System/Library/Frameworks"/>
+					<Add directory="/Library/Frameworks"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/Users/xiezili/Desktop/courses/418/exe/computer-graphics-ray-tracing/cmake-build-debug/Makefile&quot;  VERBOSE=1 raytracing"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/Users/xiezili/Desktop/courses/418/exe/computer-graphics-ray-tracing/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/Users/xiezili/Desktop/courses/418/exe/computer-graphics-ray-tracing/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/Users/xiezili/Desktop/courses/418/exe/computer-graphics-ray-tracing/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="raytracing/fast">
+				<Option output="/Users/xiezili/Desktop/courses/418/exe/computer-graphics-ray-tracing/cmake-build-debug/raytracing" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/Users/xiezili/Desktop/courses/418/exe/computer-graphics-ray-tracing/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="clang"/>
+				<Compiler>
+					<Add directory="/Users/xiezili/Desktop/courses/418/exe/computer-graphics-ray-tracing/include"/>
+					<Add directory="/Users/xiezili/Desktop/courses/418/exe/computer-graphics-ray-tracing/shared/eigen"/>
+					<Add directory="/Users/xiezili/Desktop/courses/418/exe/computer-graphics-ray-tracing/shared/json"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/include/c++/v1"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/lib/clang/10.0.1/include"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/include"/>
+					<Add directory="/System/Library/Frameworks"/>
+					<Add directory="/Library/Frameworks"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/Users/xiezili/Desktop/courses/418/exe/computer-graphics-ray-tracing/cmake-build-debug/Makefile&quot;  VERBOSE=1 raytracing/fast"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/Users/xiezili/Desktop/courses/418/exe/computer-graphics-ray-tracing/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/Users/xiezili/Desktop/courses/418/exe/computer-graphics-ray-tracing/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/Users/xiezili/Desktop/courses/418/exe/computer-graphics-ray-tracing/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+		</Build>
+		<Unit filename="/Users/xiezili/Desktop/courses/418/exe/computer-graphics-ray-tracing/main.cpp">
+			<Option target="raytracing"/>
+		</Unit>
+		<Unit filename="/Users/xiezili/Desktop/courses/418/exe/computer-graphics-ray-tracing/src/Cube.cpp">
+			<Option target="hw2"/>
+		</Unit>
+		<Unit filename="/Users/xiezili/Desktop/courses/418/exe/computer-graphics-ray-tracing/src/DirectionalLight.cpp">
+			<Option target="raytracing"/>
+		</Unit>
+		<Unit filename="/Users/xiezili/Desktop/courses/418/exe/computer-graphics-ray-tracing/src/Plane.cpp">
+			<Option target="hw2"/>
+		</Unit>
+		<Unit filename="/Users/xiezili/Desktop/courses/418/exe/computer-graphics-ray-tracing/src/PointLight.cpp">
+			<Option target="raytracing"/>
+		</Unit>
+		<Unit filename="/Users/xiezili/Desktop/courses/418/exe/computer-graphics-ray-tracing/src/Sphere.cpp">
+			<Option target="hw2"/>
+		</Unit>
+		<Unit filename="/Users/xiezili/Desktop/courses/418/exe/computer-graphics-ray-tracing/src/Triangle.cpp">
+			<Option target="hw2"/>
+		</Unit>
+		<Unit filename="/Users/xiezili/Desktop/courses/418/exe/computer-graphics-ray-tracing/src/TriangleSoup.cpp">
+			<Option target="hw2"/>
+		</Unit>
+		<Unit filename="/Users/xiezili/Desktop/courses/418/exe/computer-graphics-ray-tracing/src/blinn_phong_shading.cpp">
+			<Option target="raytracing"/>
+		</Unit>
+		<Unit filename="/Users/xiezili/Desktop/courses/418/exe/computer-graphics-ray-tracing/src/first_hit.cpp">
+			<Option target="hw2"/>
+		</Unit>
+		<Unit filename="/Users/xiezili/Desktop/courses/418/exe/computer-graphics-ray-tracing/src/raycolor.cpp">
+			<Option target="raytracing"/>
+		</Unit>
+		<Unit filename="/Users/xiezili/Desktop/courses/418/exe/computer-graphics-ray-tracing/src/reflect.cpp">
+			<Option target="raytracing"/>
+		</Unit>
+		<Unit filename="/Users/xiezili/Desktop/courses/418/exe/computer-graphics-ray-tracing/src/viewing_ray.cpp">
+			<Option target="hw2"/>
+		</Unit>
+		<Unit filename="/Users/xiezili/Desktop/courses/418/exe/computer-graphics-ray-tracing/src/write_ppm.cpp">
+			<Option target="hw2"/>
+		</Unit>
+		<Unit filename="/Users/xiezili/Desktop/courses/418/exe/computer-graphics-ray-tracing/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\"/>
+		</Unit>
+	</Project>
+</CodeBlocks_project_file>

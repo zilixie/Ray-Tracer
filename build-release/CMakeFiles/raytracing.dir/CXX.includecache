@@ -1,0 +1,36 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/Users/xiezili/Desktop/courses/418/exe/computer-graphics-ray-tracing/main.cpp
+Object.h
+/Users/xiezili/Desktop/courses/418/exe/computer-graphics-ray-tracing/Object.h
+Camera.h
+/Users/xiezili/Desktop/courses/418/exe/computer-graphics-ray-tracing/Camera.h
+Light.h
+/Users/xiezili/Desktop/courses/418/exe/computer-graphics-ray-tracing/Light.h
+read_json.h
+/Users/xiezili/Desktop/courses/418/exe/computer-graphics-ray-tracing/read_json.h
+write_ppm.h
+/Users/xiezili/Desktop/courses/418/exe/computer-graphics-ray-tracing/write_ppm.h
+viewing_ray.h
+/Users/xiezili/Desktop/courses/418/exe/computer-graphics-ray-tracing/viewing_ray.h
+raycolor.h
+/Users/xiezili/Desktop/courses/418/exe/computer-graphics-ray-tracing/raycolor.h
+Eigen/Core
+-
+vector
+-
+iostream
+-
+memory
+-
+limits
+-
+functional
+-
+
