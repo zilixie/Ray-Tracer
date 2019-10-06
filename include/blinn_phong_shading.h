@@ -26,6 +26,7 @@ Eigen::Vector3d blinn_phong_shading(
   const double & t,
   const Eigen::Vector3d & n,
   const std::vector< std::shared_ptr<Object> > & objects,
-  const std::vector<std::shared_ptr<Light> > & lights);
+  const std::vector<std::shared_ptr<Light> > & lights,
+  int flag);
 
 #endif

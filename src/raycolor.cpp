@@ -9,7 +9,8 @@ bool raycolor(
   const std::vector< std::shared_ptr<Object> > & objects,
   const std::vector< std::shared_ptr<Light> > & lights,
   const int num_recursive_calls,
-  Eigen::Vector3d & rgb)
+  Eigen::Vector3d & rgb,
+  int flag)
 {
   int hit_id;
   double t;
@@ -19,9 +20,7 @@ bool raycolor(
                                                            //t: t*d hit的距离
                                                            //n: 被hit的点的normal
   if (find_hit) {
-    rgb = blinn_phong_shading(ray,hit_id,t,n,objects,lights);
-    printf("first rgb r:%f, g:%f, b:%f\n", rgb[0],rgb[1],rgb[2]);
-    printf("num_recursive_calls : %d\n", num_recursive_calls);
+    rgb = blinn_phong_shading(ray,hit_id,t,n,objects,lights, flag);
     if (num_recursive_calls < 3) {
       Eigen::Vector3d km = objects[hit_id]->material->km;
       Eigen::Vector3d in = ray.direction/(ray.direction).norm();
@@ -36,7 +35,7 @@ bool raycolor(
 
       Eigen::Vector3d color (0,0,0);
 
-      raycolor(reflect_ray, min_t/1000000, objects, lights, num_recursive_calls + 1, color);
+      raycolor(reflect_ray, min_t/1000000, objects, lights, num_recursive_calls + 1, color, 1);
       rgb = rgb + (color.array() * km.array()).matrix();
     }
     return true;

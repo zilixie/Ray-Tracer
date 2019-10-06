@@ -1,6 +1,7 @@
 #ifndef SPHERE_H
 #define SPHERE_H
 
+#include <vector>
 #include "Sphere.h"
 #include "Object.h"
 #include <Eigen/Core>
@@ -10,6 +11,10 @@ class Sphere : public Object
   public:
     Eigen::Vector3d center;
     double radius;
+
+    std::string texture;
+    std::vector<unsigned char> texture_data;
+    int texture_width, texture_height;
   public:
     // Intersect sphere with ray.
     //
@@ -22,6 +27,7 @@ class Sphere : public Object
     // Returns iff there a first intersection is found.
     bool intersect(
       const Ray & ray, const double min_t, double & t, Eigen::Vector3d & n) const;
+    Eigen::Vector3d set_texture_color( Eigen::Vector3d p) const;
 };
 
 #endif

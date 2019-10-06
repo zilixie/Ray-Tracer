@@ -11,6 +11,7 @@ bool first_hit(
         double & t,
         Eigen::Vector3d & n)
 {
+    /*
     int hit_id_list [(int) objects.size()]; //initialize了三个list: hit_id_list, t_list, normal_list
     double t_list [(int) objects.size()];
     Eigen::Vector3d normal_list [(int) objects.size()];
@@ -41,7 +42,22 @@ bool first_hit(
 
     hit_id = hit_id_list[index];
     t = min;
-    n = normal_list[index];
+    n = normal_list[index];*/
+
+    double t1;
+    Eigen::Vector3d n1;
+    t = std::numeric_limits<double>::max();
+    bool intersect = false;
+    for (int i=0; i<objects.size(); i++) {
+        if (objects[i]->intersect(ray, min_t, t1, n1)) {
+            intersect = true;
+            if (t1 < t) {
+                t = t1;
+                hit_id = i;
+                n = n1;
+            }
+        }
+    }
 
     if (intersect) {
         return true;

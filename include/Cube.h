@@ -1,6 +1,7 @@
 #ifndef CUBE_H
 #define CUBE_H
 
+#include <vector>
 #include "Object.h"
 #include <Eigen/Core>
 
@@ -8,9 +9,11 @@ class Cube : public Object
 {
   public:
     Eigen::Vector3d v1;
-    Eigen::Vector3d v2;
-    Eigen::Vector3d v3;
-    Eigen::Vector3d v4;
+    Eigen::Vector3d v8;
+    std::string texture;
+    std::vector<unsigned char> texture_data;
+    int texture_width, texture_height;
+
   public:
     // Intersect sphere with ray.
     //
@@ -23,6 +26,7 @@ class Cube : public Object
     // Returns iff there a first intersection is found.
     bool intersect(
       const Ray & ray, const double min_t, double & t, Eigen::Vector3d & n) const;
+    Eigen::Vector3d set_texture_color( Eigen::Vector3d p) const;
 };
 
 #endif

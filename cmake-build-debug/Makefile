@@ -136,6 +136,45 @@ raytracing/fast:
 	$(MAKE) -f CMakeFiles/raytracing.dir/build.make CMakeFiles/raytracing.dir/build
 .PHONY : raytracing/fast
 
+#=============================================================================
+# Target rules for targets named glad
+
+# Build rule for target.
+glad: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 glad
+.PHONY : glad
+
+# fast build rule for target.
+glad/fast:
+	$(MAKE) -f glad/CMakeFiles/glad.dir/build.make glad/CMakeFiles/glad.dir/build
+.PHONY : glad/fast
+
+#=============================================================================
+# Target rules for targets named glfw
+
+# Build rule for target.
+glfw: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 glfw
+.PHONY : glfw
+
+# fast build rule for target.
+glfw/fast:
+	$(MAKE) -f glfw/src/CMakeFiles/glfw.dir/build.make glfw/src/CMakeFiles/glfw.dir/build
+.PHONY : glfw/fast
+
+#=============================================================================
+# Target rules for targets named igl_stb_image
+
+# Build rule for target.
+igl_stb_image: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 igl_stb_image
+.PHONY : igl_stb_image
+
+# fast build rule for target.
+igl_stb_image/fast:
+	$(MAKE) -f stb_image/CMakeFiles/igl_stb_image.dir/build.make stb_image/CMakeFiles/igl_stb_image.dir/build
+.PHONY : igl_stb_image/fast
+
 main.o: main.cpp.o
 
 .PHONY : main.o
@@ -520,10 +559,13 @@ help:
 	@echo "... all (the default if no target is provided)"
 	@echo "... clean"
 	@echo "... depend"
-	@echo "... rebuild_cache"
-	@echo "... edit_cache"
 	@echo "... hw2"
 	@echo "... raytracing"
+	@echo "... rebuild_cache"
+	@echo "... edit_cache"
+	@echo "... glad"
+	@echo "... glfw"
+	@echo "... igl_stb_image"
 	@echo "... main.o"
 	@echo "... main.i"
 	@echo "... main.s"

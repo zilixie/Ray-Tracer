@@ -24,6 +24,7 @@ bool raycolor(
   const std::vector< std::shared_ptr<Object> > & objects,
   const std::vector< std::shared_ptr<Light> > & lights,
   const int num_recursive_calls,
-  Eigen::Vector3d & rgb);
+  Eigen::Vector3d & rgb,
+  int flag);
 
 #endif

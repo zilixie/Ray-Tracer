@@ -6,13 +6,13 @@
 
 #IncludeRegexTransform: 
 
-/Users/xiezili/Desktop/courses/418/exe/computer-graphics-ray-tracing/src/Cube.cpp
-Cube.h
-/Users/xiezili/Desktop/courses/418/exe/computer-graphics-ray-tracing/src/Cube.h
-Triangle.h
-/Users/xiezili/Desktop/courses/418/exe/computer-graphics-ray-tracing/src/Triangle.h
-Ray.h
-/Users/xiezili/Desktop/courses/418/exe/computer-graphics-ray-tracing/src/Ray.h
-Eigen/Geometry
+/Users/xiezili/Desktop/courses/418/exe/computer-graphics-ray-tracing/src/first_hit.cpp
+first_hit.h
+/Users/xiezili/Desktop/courses/418/exe/computer-graphics-ray-tracing/src/first_hit.h
+algorithm
+-
+vector
+-
+limits
 -
 

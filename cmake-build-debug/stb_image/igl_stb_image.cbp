@@ -1,0 +1,119 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CodeBlocks_project_file>
+	<FileVersion major="1" minor="6"/>
+	<Project>
+		<Option title="igl_stb_image"/>
+		<Option makefile_is_custom="1"/>
+		<Option compiler="clang"/>
+		<Option virtualFolders="CMake Files\;CMake Files\libigl\;CMake Files\libigl\external\;CMake Files\libigl\external\glfw\;CMake Files\libigl\external\glfw\CMake\;CMake Files\libigl\external\glfw\CMake\modules\;CMake Files\libigl\external\glfw\src\;CMake Files\libigl\external\glad\;CMake Files\libigl\external\stb_image\;CMake Files\libigl\shared\;CMake Files\libigl\shared\cmake\;"/>
+		<Build>
+			<Target title="all">
+				<Option working_dir="/Users/xiezili/Desktop/courses/418/exe/computer-graphics-ray-tracing/cmake-build-debug/stb_image"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/Users/xiezili/Desktop/courses/418/exe/computer-graphics-ray-tracing/cmake-build-debug/stb_image/Makefile&quot;  VERBOSE=1 all"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/Users/xiezili/Desktop/courses/418/exe/computer-graphics-ray-tracing/cmake-build-debug/stb_image/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/Users/xiezili/Desktop/courses/418/exe/computer-graphics-ray-tracing/cmake-build-debug/stb_image/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/Users/xiezili/Desktop/courses/418/exe/computer-graphics-ray-tracing/cmake-build-debug/stb_image/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="igl_stb_image">
+				<Option output="/Users/xiezili/Desktop/courses/418/exe/computer-graphics-ray-tracing/cmake-build-debug/stb_image/libigl_stb_image.a" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/Users/xiezili/Desktop/courses/418/exe/computer-graphics-ray-tracing/cmake-build-debug/stb_image"/>
+				<Option object_output="./"/>
+				<Option type="2"/>
+				<Option compiler="clang"/>
+				<Compiler>
+					<Add directory="/Users/xiezili/Desktop/courses/418/exe/computer-graphics-ray-tracing/libigl/external/stb_image"/>
+					<Add directory="/Users/xiezili/Desktop/courses/418/exe/computer-graphics-ray-tracing/cmake-build-debug/stb_image"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/include/c++/v1"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/lib/clang/10.0.1/include"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/include"/>
+					<Add directory="/System/Library/Frameworks"/>
+					<Add directory="/Library/Frameworks"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/Users/xiezili/Desktop/courses/418/exe/computer-graphics-ray-tracing/cmake-build-debug/stb_image/Makefile&quot;  VERBOSE=1 igl_stb_image"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/Users/xiezili/Desktop/courses/418/exe/computer-graphics-ray-tracing/cmake-build-debug/stb_image/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/Users/xiezili/Desktop/courses/418/exe/computer-graphics-ray-tracing/cmake-build-debug/stb_image/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/Users/xiezili/Desktop/courses/418/exe/computer-graphics-ray-tracing/cmake-build-debug/stb_image/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="igl_stb_image/fast">
+				<Option output="/Users/xiezili/Desktop/courses/418/exe/computer-graphics-ray-tracing/cmake-build-debug/stb_image/libigl_stb_image.a" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/Users/xiezili/Desktop/courses/418/exe/computer-graphics-ray-tracing/cmake-build-debug/stb_image"/>
+				<Option object_output="./"/>
+				<Option type="2"/>
+				<Option compiler="clang"/>
+				<Compiler>
+					<Add directory="/Users/xiezili/Desktop/courses/418/exe/computer-graphics-ray-tracing/libigl/external/stb_image"/>
+					<Add directory="/Users/xiezili/Desktop/courses/418/exe/computer-graphics-ray-tracing/cmake-build-debug/stb_image"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/include/c++/v1"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/lib/clang/10.0.1/include"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/include"/>
+					<Add directory="/System/Library/Frameworks"/>
+					<Add directory="/Library/Frameworks"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/Users/xiezili/Desktop/courses/418/exe/computer-graphics-ray-tracing/cmake-build-debug/stb_image/Makefile&quot;  VERBOSE=1 igl_stb_image/fast"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/Users/xiezili/Desktop/courses/418/exe/computer-graphics-ray-tracing/cmake-build-debug/stb_image/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/Users/xiezili/Desktop/courses/418/exe/computer-graphics-ray-tracing/cmake-build-debug/stb_image/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/Users/xiezili/Desktop/courses/418/exe/computer-graphics-ray-tracing/cmake-build-debug/stb_image/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+		</Build>
+		<Unit filename="/Users/xiezili/Desktop/courses/418/exe/computer-graphics-ray-tracing/libigl/external/stb_image/igl_stb_image.cpp">
+			<Option target="igl_stb_image"/>
+		</Unit>
+		<Unit filename="/Users/xiezili/Desktop/courses/418/exe/computer-graphics-ray-tracing/libigl/external/stb_image/igl_stb_image.h">
+			<Option target="igl_stb_image"/>
+		</Unit>
+		<Unit filename="/Users/xiezili/Desktop/courses/418/exe/computer-graphics-ray-tracing/libigl/external/stb_image/stb_image.h">
+			<Option target="igl_stb_image"/>
+		</Unit>
+		<Unit filename="/Users/xiezili/Desktop/courses/418/exe/computer-graphics-ray-tracing/libigl/external/stb_image/stb_image_write.h">
+			<Option target="igl_stb_image"/>
+		</Unit>
+		<Unit filename="/Users/xiezili/Desktop/courses/418/exe/computer-graphics-ray-tracing/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\"/>
+		</Unit>
+		<Unit filename="/Users/xiezili/Desktop/courses/418/exe/computer-graphics-ray-tracing/libigl/external/glfw/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\libigl\external\glfw\"/>
+		</Unit>
+		<Unit filename="/Users/xiezili/Desktop/courses/418/exe/computer-graphics-ray-tracing/libigl/external/glfw/CMake/modules/FindVulkan.cmake">
+			<Option virtualFolder="CMake Files\libigl\external\glfw\CMake\modules\"/>
+		</Unit>
+		<Unit filename="/Users/xiezili/Desktop/courses/418/exe/computer-graphics-ray-tracing/libigl/external/glfw/src/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\libigl\external\glfw\src\"/>
+		</Unit>
+		<Unit filename="/Users/xiezili/Desktop/courses/418/exe/computer-graphics-ray-tracing/libigl/external/glfw/src/glfw3.pc.in">
+			<Option virtualFolder="CMake Files\libigl\external\glfw\src\"/>
+		</Unit>
+		<Unit filename="/Users/xiezili/Desktop/courses/418/exe/computer-graphics-ray-tracing/libigl/external/glfw/src/glfw3Config.cmake.in">
+			<Option virtualFolder="CMake Files\libigl\external\glfw\src\"/>
+		</Unit>
+		<Unit filename="/Users/xiezili/Desktop/courses/418/exe/computer-graphics-ray-tracing/libigl/external/glfw/src/glfw_config.h.in">
+			<Option virtualFolder="CMake Files\libigl\external\glfw\src\"/>
+		</Unit>
+		<Unit filename="/Users/xiezili/Desktop/courses/418/exe/computer-graphics-ray-tracing/libigl/external/glad/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\libigl\external\glad\"/>
+		</Unit>
+		<Unit filename="/Users/xiezili/Desktop/courses/418/exe/computer-graphics-ray-tracing/libigl/external/stb_image/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\libigl\external\stb_image\"/>
+		</Unit>
+		<Unit filename="/Users/xiezili/Desktop/courses/418/exe/computer-graphics-ray-tracing/libigl/shared/cmake/CXXFeatures.cmake">
+			<Option virtualFolder="CMake Files\libigl\shared\cmake\"/>
+		</Unit>
+		<Unit filename="/Users/xiezili/Desktop/courses/418/exe/computer-graphics-ray-tracing/libigl/shared/cmake/FindCGAL.cmake">
+			<Option virtualFolder="CMake Files\libigl\shared\cmake\"/>
+		</Unit>
+		<Unit filename="/Users/xiezili/Desktop/courses/418/exe/computer-graphics-ray-tracing/libigl/shared/cmake/FindMOSEK.cmake">
+			<Option virtualFolder="CMake Files\libigl\shared\cmake\"/>
+		</Unit>
+		<Unit filename="/Users/xiezili/Desktop/courses/418/exe/computer-graphics-ray-tracing/libigl/shared/cmake/libigl.cmake">
+			<Option virtualFolder="CMake Files\libigl\shared\cmake\"/>
+		</Unit>
+	</Project>
+</CodeBlocks_project_file>

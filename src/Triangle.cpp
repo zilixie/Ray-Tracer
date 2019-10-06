@@ -89,3 +89,9 @@ bool Triangle::intersect(
   }
   return true;
 }
+
+Eigen::Vector3d Triangle::set_texture_color(
+        Eigen::Vector3d p) const
+{
+    return this->material->kd;
+}

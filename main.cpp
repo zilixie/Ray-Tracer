@@ -25,8 +25,8 @@ int main(int argc, char * argv[])
     objects,
     lights); //这里把json里面的的参数读出来
 
-  int width =  1280;                //66
-  int height = 720; //规定屏幕大小   //93
+  int width =  360;//1280;                //66//320
+  int height = 360;//720; //规定屏幕大小   //93//180
   std::vector<unsigned char> rgb_image(3*width*height);
   // For each pixel (i,j)
   for(unsigned i=0; i<height; ++i) 
@@ -42,7 +42,7 @@ int main(int argc, char * argv[])
       viewing_ray(camera,i,j,width,height,ray); //根据每个pixel 修改 the ray的 origin和direction
       
       // Shoot ray and collect color
-      raycolor(ray,1.0,objects,lights,0,rgb); //给一个ray 获得这个ray的颜色信息, 1.0*d 是camera到screen的距离, 所以min_t的值为1.0
+      raycolor(ray,1.0,objects,lights,0,rgb, 1); //给一个ray 获得这个ray的颜色信息, 1.0*d 是camera到screen的距离, 所以min_t的值为1.0
                                               //objects,lights 都是std::vector< std::shared_ptr<Light> >
                                               //output: rgb color
       // Write double precision color into image

@@ -1,4 +1,15 @@
-/Users/xiezili/Desktop/courses/418/exe/computer-graphics-ray-tracing/cmake-build-debug/CMakeFiles/rebuild_cache.dir
-/Users/xiezili/Desktop/courses/418/exe/computer-graphics-ray-tracing/cmake-build-debug/CMakeFiles/edit_cache.dir
 /Users/xiezili/Desktop/courses/418/exe/computer-graphics-ray-tracing/cmake-build-debug/CMakeFiles/hw2.dir
 /Users/xiezili/Desktop/courses/418/exe/computer-graphics-ray-tracing/cmake-build-debug/CMakeFiles/raytracing.dir
+/Users/xiezili/Desktop/courses/418/exe/computer-graphics-ray-tracing/cmake-build-debug/CMakeFiles/rebuild_cache.dir
+/Users/xiezili/Desktop/courses/418/exe/computer-graphics-ray-tracing/cmake-build-debug/CMakeFiles/edit_cache.dir
+/Users/xiezili/Desktop/courses/418/exe/computer-graphics-ray-tracing/cmake-build-debug/glad/CMakeFiles/rebuild_cache.dir
+/Users/xiezili/Desktop/courses/418/exe/computer-graphics-ray-tracing/cmake-build-debug/glad/CMakeFiles/edit_cache.dir
+/Users/xiezili/Desktop/courses/418/exe/computer-graphics-ray-tracing/cmake-build-debug/glad/CMakeFiles/glad.dir
+/Users/xiezili/Desktop/courses/418/exe/computer-graphics-ray-tracing/cmake-build-debug/glfw/CMakeFiles/rebuild_cache.dir
+/Users/xiezili/Desktop/courses/418/exe/computer-graphics-ray-tracing/cmake-build-debug/glfw/CMakeFiles/edit_cache.dir
+/Users/xiezili/Desktop/courses/418/exe/computer-graphics-ray-tracing/cmake-build-debug/glfw/src/CMakeFiles/rebuild_cache.dir
+/Users/xiezili/Desktop/courses/418/exe/computer-graphics-ray-tracing/cmake-build-debug/glfw/src/CMakeFiles/edit_cache.dir
+/Users/xiezili/Desktop/courses/418/exe/computer-graphics-ray-tracing/cmake-build-debug/glfw/src/CMakeFiles/glfw.dir
+/Users/xiezili/Desktop/courses/418/exe/computer-graphics-ray-tracing/cmake-build-debug/stb_image/CMakeFiles/rebuild_cache.dir
+/Users/xiezili/Desktop/courses/418/exe/computer-graphics-ray-tracing/cmake-build-debug/stb_image/CMakeFiles/edit_cache.dir
+/Users/xiezili/Desktop/courses/418/exe/computer-graphics-ray-tracing/cmake-build-debug/stb_image/CMakeFiles/igl_stb_image.dir

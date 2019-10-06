@@ -2,9 +2,9 @@
   "camera": {
     "type": "perspective",
     "focal_length": 1,
-    "eye": [20,10,55],
+    "eye": [32,16,88],
     "up": [0,1,0],
-    "look": [-0.4,-0.2,-1],
+    "look": [-0.3,-0.2,-1],
     "height": 1,
     "width": 1.7777777778
   },
@@ -13,30 +13,38 @@
     {
       "type": "point",
       "color": [0.3,0.3,0.3],
-      "position": [-20,9,50]
+      "position": [-20,15,50]
     },
     {
       "type": "point",
       "color": [0.3,0.3,0.3],
-      "position": [20,9,50]
+      "position": [50,15,20]
     },
     {
       "type": "point",
-      "color": [0.3,0.3,0.3],
-      "position": [50,-9,20]
+      "color": [0.2,0.2,0.2],
+      "position": [30,15,80]
     },
     {
       "type": "point",
-      "color": [0.3,0.3,0.3],
-      "position": [50,-9,20]
+      "color": [0.4,0.4,0.4],
+      "position": [-5,40,-5]
     }
   ],
 
   "materials": [
     {
+      "name": "matte dark gray",
+      "ka": [0.09, 0.09, 0.09],
+      "kd": [0.55, 0.55, 0.55],
+      "ks": [0.3,0.3,0.3],
+      "km": [0,0,0],
+      "phong_exponent": 200
+    },
+    {
       "name": "matte gray",
       "ka": [0.09, 0.09, 0.09],
-      "kd": [0.95, 0.95, 0.95],
+      "kd": [0.65, 0.65, 0.65],
       "ks": [0.3,0.3,0.3],
       "km": [0.05,0.05,0.05],
       "phong_exponent": 200
@@ -86,70 +94,50 @@
   "objects": [
     {
       "type": "soup",
-      "material": "purple metal",
-      "stl": "rex.stl"
-    },
-    {
-      "material": "matte gray",
-      "type": "cube",
-      "v1": [0,-5,13],
-      "v2": [-5,-5,13],
-      "v3": [0,-5,8],
-      "v4": [-5,-5,8]
-    },
-    {
-      "material": "matte gray",
-      "type": "cube",
-      "v1": [5,-10,14],
-      "v2": [0,-10,14],
-      "v3": [5,-10,9],
-      "v4": [0,-10,9]
-    },
-    {
-      "material": "matte gray",
-      "type": "cube",
-      "v1": [-10,-15,13],
-      "v2": [-15,-15,13],
-      "v3": [-10,-15,8],
-      "v4": [-15,-15,8]
-    },
-    {
-      "material": "matte gray",
-      "type": "cube",
-      "v1": [-18,-10,12],
-      "v2": [-23,-10,12],
-      "v3": [-18,-10,7],
-      "v4": [-23,-10,7]
-    },
-    {
       "material": "orange metal",
-      "type": "cube",
-      "v1": [-22,-5,14],
-      "v2": [-27,-5,14],
-      "v3": [-22,-5,9],
-      "v4": [-27,-5,9]
+      "stl": "tower7.stl",
+      "point": [0,-23,0]
+    },
+    {
+      "type": "soup",
+      "material": "green metal",
+      "stl": "rex.stl",
+      "point": [30,-2,20]
     },
     {
       "material": "matte gray",
       "type": "cube",
-      "v1": [-30,5,-10],
-      "v2": [-35,5,-10],
-      "v3": [-30,5,-15],
-      "v4": [-35,5,-15]
-    },
-    {
-      "material": "matte gray",
-      "type": "cube",
-      "v1": [-17,10,-10],
-      "v2": [-27,10,-10],
-      "v3": [-17,10,-20],
-      "v4": [-27,10,-20]
+      "v1": [-2,-1,31],
+      "v8": [-24,-23,9],
+      "texture":"../shared/data/cube2.png"
     },
     {
       "material": "matte gray",
       "type": "plane",
       "point": [0,-23,0],
-      "normal": [0,1,0]
+      "normal": [0,1,0],
+      "texture":"../shared/data/floor.png"
+    },
+    {
+      "material": "matte dark gray",
+      "type": "plane",
+      "point": [0,0,-120],
+      "normal": [0,0,1],
+      "texture":"NULL"
+    },
+    {
+      "material": "matte dark gray",
+      "type": "plane",
+      "point": [-120,0,0],
+      "normal": [1,0,0],
+      "texture":"NULL"
+    },
+    {
+      "type": "sphere",
+      "material": "blue metal",
+      "center": [-30,7,-30],
+      "radius": 30,
+      "texture": "../shared/data/earth-square.png"
     }
   ]
 }

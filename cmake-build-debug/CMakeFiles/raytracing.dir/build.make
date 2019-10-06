@@ -155,6 +155,9 @@ raytracing: CMakeFiles/raytracing.dir/src/reflect.cpp.o
 raytracing: CMakeFiles/raytracing.dir/main.cpp.o
 raytracing: CMakeFiles/raytracing.dir/build.make
 raytracing: libhw2.a
+raytracing: stb_image/libigl_stb_image.a
+raytracing: glad/libglad.a
+raytracing: glfw/src/libglfw3.a
 raytracing: CMakeFiles/raytracing.dir/link.txt
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/Users/xiezili/Desktop/courses/418/exe/computer-graphics-ray-tracing/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_7) "Linking CXX executable raytracing"
 	$(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/raytracing.dir/link.txt --verbose=$(VERBOSE)

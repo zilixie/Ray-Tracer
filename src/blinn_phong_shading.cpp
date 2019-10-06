@@ -10,7 +10,8 @@ Eigen::Vector3d blinn_phong_shading(
   const double & t,
   const Eigen::Vector3d & n,
   const std::vector< std::shared_ptr<Object> > & objects,
-  const std::vector<std::shared_ptr<Light> > & lights)
+  const std::vector<std::shared_ptr<Light> > & lights,
+  int flag)
 {
   Eigen::Vector3d query_point = ray.origin + t * ray.direction;
   Eigen::Vector3d direction_query_point_to_light;
@@ -20,6 +21,8 @@ Eigen::Vector3d blinn_phong_shading(
 
   Eigen::Vector3d L_shadow = Eigen::Vector3d(0,0,0);
   Eigen::Vector3d ka = objects[hit_id]->material->ka;
+
+  Eigen::Vector3d queue_point = ray.origin + t * ray.direction;
 
 
   for (int j=0; j<lights.size(); j++) {
@@ -34,10 +37,9 @@ Eigen::Vector3d blinn_phong_shading(
     Eigen::Vector3d kd = objects[hit_id]->material->kd;
     Eigen::Vector3d ks = objects[hit_id]->material->ks;
 
-    double exp = objects[hit_id]->material->phong_exponent;
+    //printf("%f, %f, %f", kd[0], kd[1], kd[2]);
 
-    Eigen::Vector3d diffuse = fmax(0, n.dot(l)) * (i.array() * kd.array()).matrix();
-    Eigen::Vector3d specular = pow(fmax(0, n.dot(h)), exp) * (i.array() * ks.array()).matrix();
+
 
     Ray shadow_ray;
     int shadow_hit_id;
@@ -45,6 +47,17 @@ Eigen::Vector3d blinn_phong_shading(
     Eigen::Vector3d shadow_n;
     shadow_ray.origin = query_point;
     shadow_ray.direction = l;
+
+
+    if (flag == 1) {
+      kd = objects[hit_id]->set_texture_color(shadow_ray.origin);
+    }
+
+    //printf("%f, %f, %f", kd[0], kd[1], kd[2]);
+
+    double exp = objects[hit_id]->material->phong_exponent;
+    Eigen::Vector3d diffuse = fmax(0, n.dot(l)) * (i.array() * kd.array()).matrix();
+    Eigen::Vector3d specular = pow(fmax(0, n.dot(h)), exp) * (i.array() * ks.array()).matrix();
 
     bool this_light_shadow_hit = first_hit(shadow_ray, 0.000001, objects, shadow_hit_id, shadow_t,shadow_n);
     if ((shadow_t < parametric_distance_t) && this_light_shadow_hit) {

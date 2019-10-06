@@ -1,4 +1,86 @@
 /Applications/CLion.app/Contents/bin/cmake/mac/bin/cmake -DCMAKE_BUILD_TYPE=Debug -G "CodeBlocks - Unix Makefiles" /Users/xiezili/Desktop/courses/418/exe/computer-graphics-ray-tracing
+-- Found libtool - /usr/bin/libtool
+-- CGAL not found.  Set the CGAL_DIR cmake variable or environment variable to the directory containing CGALConfig.cmake. This is either the binary directory where CGAL was configured or PREFIX/lib/CGAL for an installation.
+CMake Warning at /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.13/Modules/FindBoost.cmake:880 (message):
+  New Boost version may have incorrect or missing dependencies and imported
+  targets
+Call Stack (most recent call first):
+  /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.13/Modules/FindBoost.cmake:1002 (_Boost_COMPONENT_DEPENDENCIES)
+  /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.13/Modules/FindBoost.cmake:1670 (_Boost_MISSING_DEPENDENCIES)
+  libigl/shared/cmake/libigl.cmake:25 (find_package)
+  CMakeLists.txt:32 (include)
+
+
+CMake Warning at /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.13/Modules/FindBoost.cmake:880 (message):
+  New Boost version may have incorrect or missing dependencies and imported
+  targets
+Call Stack (most recent call first):
+  /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.13/Modules/FindBoost.cmake:1002 (_Boost_COMPONENT_DEPENDENCIES)
+  /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.13/Modules/FindBoost.cmake:1670 (_Boost_MISSING_DEPENDENCIES)
+  libigl/shared/cmake/libigl.cmake:25 (find_package)
+  CMakeLists.txt:32 (include)
+
+
+CMake Warning at /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.13/Modules/FindBoost.cmake:880 (message):
+  New Boost version may have incorrect or missing dependencies and imported
+  targets
+Call Stack (most recent call first):
+  /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.13/Modules/FindBoost.cmake:1002 (_Boost_COMPONENT_DEPENDENCIES)
+  /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.13/Modules/FindBoost.cmake:1670 (_Boost_MISSING_DEPENDENCIES)
+  libigl/shared/cmake/libigl.cmake:25 (find_package)
+  CMakeLists.txt:32 (include)
+
+
+CMake Warning at /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.13/Modules/FindBoost.cmake:880 (message):
+  New Boost version may have incorrect or missing dependencies and imported
+  targets
+Call Stack (most recent call first):
+  /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.13/Modules/FindBoost.cmake:1002 (_Boost_COMPONENT_DEPENDENCIES)
+  /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.13/Modules/FindBoost.cmake:1670 (_Boost_MISSING_DEPENDENCIES)
+  libigl/shared/cmake/libigl.cmake:25 (find_package)
+  CMakeLists.txt:32 (include)
+
+
+CMake Warning at /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.13/Modules/FindBoost.cmake:880 (message):
+  New Boost version may have incorrect or missing dependencies and imported
+  targets
+Call Stack (most recent call first):
+  /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.13/Modules/FindBoost.cmake:1002 (_Boost_COMPONENT_DEPENDENCIES)
+  /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.13/Modules/FindBoost.cmake:1670 (_Boost_MISSING_DEPENDENCIES)
+  libigl/shared/cmake/libigl.cmake:25 (find_package)
+  CMakeLists.txt:32 (include)
+
+
+-- Looking for pthread.h
+-- Looking for pthread.h - found
+-- Looking for pthread_create
+-- Looking for pthread_create - found
+-- Found Threads: TRUE  
+-- Boost version: 1.70.0
+-- Found the following Boost libraries:
+--   thread
+--   system
+--   chrono
+--   date_time
+--   atomic
+-- Could NOT find Matlab (missing: Matlab_INCLUDE_DIRS Matlab_MEX_LIBRARY Matlab_MEX_EXTENSION Matlab_ROOT_DIR MEX_COMPILER MX_LIBRARY ENG_LIBRARY) (found version "NOTFOUND")
+-- Could NOT find MOSEK (missing: MOSEK_LIBRARIES MOSEK_INCLUDE_DIR) 
+-- Found OpenGL: /Library/Developer/CommandLineTools/SDKs/MacOSX10.14.sdk/System/Library/Frameworks/OpenGL.framework   
+-- Creating target: igl::core (igl)
+-- Creating target: igl::opengl (igl_opengl)
+-- Creating target: igl::opengl_glfw (igl_opengl_glfw)
+-- Could NOT find Vulkan (missing: VULKAN_LIBRARY VULKAN_INCLUDE_DIR) 
+-- Using Cocoa for window creation
+-- Performing Test COMPILER_HAS_HIDDEN_VISIBILITY
+-- Performing Test COMPILER_HAS_HIDDEN_VISIBILITY - Success
+-- Performing Test COMPILER_HAS_HIDDEN_INLINE_VISIBILITY
+-- Performing Test COMPILER_HAS_HIDDEN_INLINE_VISIBILITY - Success
+-- Performing Test COMPILER_HAS_DEPRECATED_ATTR
+-- Performing Test COMPILER_HAS_DEPRECATED_ATTR - Success
+-- Creating target: igl::png (igl_png)
+-- include dir: /Users/xiezili/Desktop/courses/418/exe/computer-graphics-ray-tracing/libigl/shared/cmake/../..
+-- shared root: /Users/xiezili/Desktop/courses/418/exe/computer-graphics-ray-tracing/shared/
+-- project name: raytracing
 -- Configuring done
 -- Generating done
 -- Build files have been written to: /Users/xiezili/Desktop/courses/418/exe/computer-graphics-ray-tracing/cmake-build-debug

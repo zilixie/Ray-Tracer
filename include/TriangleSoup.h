@@ -13,6 +13,9 @@ class TriangleSoup : public Object
   public:
     // A soup is just a set (list) of triangles
     std::vector<std::shared_ptr<Object> > triangles;
+    std::string texture;
+    std::vector<unsigned char> texture_data;
+    int texture_width, texture_height;
 
     // Intersect a triangle soup with ray.
     //
@@ -25,6 +28,7 @@ class TriangleSoup : public Object
     // Returns iff there a first intersection is found.
     bool intersect(
       const Ray & ray, const double min_t, double & t, Eigen::Vector3d & n) const;
+    Eigen::Vector3d set_texture_color( Eigen::Vector3d p) const;
 };
 
 #endif

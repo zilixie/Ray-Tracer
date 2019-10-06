@@ -17,3 +17,9 @@ bool TriangleSoup::intersect(
 
 
 
+Eigen::Vector3d TriangleSoup::set_texture_color(
+        Eigen::Vector3d p) const
+{
+    //std::cout << "retrun kd:" << material->kd << "\n";
+    return this->material->kd;
+}

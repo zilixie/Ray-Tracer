@@ -554,3 +554,88 @@ Linking CXX executable cmTC_1f245
 
 Source file was:
 int main() { return 0; }
+Determining if the include file pthread.h exists passed with the following output:
+Change Dir: /Users/xiezili/Desktop/courses/418/exe/computer-graphics-ray-tracing/cmake-build-debug/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_131fd/fast"
+/Library/Developer/CommandLineTools/usr/bin/make -f CMakeFiles/cmTC_131fd.dir/build.make CMakeFiles/cmTC_131fd.dir/build
+Building C object CMakeFiles/cmTC_131fd.dir/CheckIncludeFile.c.o
+/Library/Developer/CommandLineTools/usr/bin/cc   -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX10.14.sdk   -o CMakeFiles/cmTC_131fd.dir/CheckIncludeFile.c.o   -c /Users/xiezili/Desktop/courses/418/exe/computer-graphics-ray-tracing/cmake-build-debug/CMakeFiles/CMakeTmp/CheckIncludeFile.c
+Linking C executable cmTC_131fd
+/Applications/CLion.app/Contents/bin/cmake/mac/bin/cmake -E cmake_link_script CMakeFiles/cmTC_131fd.dir/link.txt --verbose=1
+/Library/Developer/CommandLineTools/usr/bin/cc   -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX10.14.sdk -Wl,-search_paths_first -Wl,-headerpad_max_install_names   CMakeFiles/cmTC_131fd.dir/CheckIncludeFile.c.o  -o cmTC_131fd 
+
+
+Determining if the pthread_create exist passed with the following output:
+Change Dir: /Users/xiezili/Desktop/courses/418/exe/computer-graphics-ray-tracing/cmake-build-debug/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_b394c/fast"
+/Library/Developer/CommandLineTools/usr/bin/make -f CMakeFiles/cmTC_b394c.dir/build.make CMakeFiles/cmTC_b394c.dir/build
+Building C object CMakeFiles/cmTC_b394c.dir/CheckSymbolExists.c.o
+/Library/Developer/CommandLineTools/usr/bin/cc   -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX10.14.sdk   -o CMakeFiles/cmTC_b394c.dir/CheckSymbolExists.c.o   -c /Users/xiezili/Desktop/courses/418/exe/computer-graphics-ray-tracing/cmake-build-debug/CMakeFiles/CMakeTmp/CheckSymbolExists.c
+Linking C executable cmTC_b394c
+/Applications/CLion.app/Contents/bin/cmake/mac/bin/cmake -E cmake_link_script CMakeFiles/cmTC_b394c.dir/link.txt --verbose=1
+/Library/Developer/CommandLineTools/usr/bin/cc   -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX10.14.sdk -Wl,-search_paths_first -Wl,-headerpad_max_install_names   CMakeFiles/cmTC_b394c.dir/CheckSymbolExists.c.o  -o cmTC_b394c 
+
+File /Users/xiezili/Desktop/courses/418/exe/computer-graphics-ray-tracing/cmake-build-debug/CMakeFiles/CMakeTmp/CheckSymbolExists.c:
+/* */
+#include <pthread.h>
+
+int main(int argc, char** argv)
+{
+  (void)argv;
+#ifndef pthread_create
+  return ((int*)(&pthread_create))[argc];
+#else
+  (void)argc;
+  return 0;
+#endif
+}
+
+Performing C++ SOURCE FILE Test COMPILER_HAS_HIDDEN_VISIBILITY succeeded with the following output:
+Change Dir: /Users/xiezili/Desktop/courses/418/exe/computer-graphics-ray-tracing/cmake-build-debug/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_7548e/fast"
+/Library/Developer/CommandLineTools/usr/bin/make -f CMakeFiles/cmTC_7548e.dir/build.make CMakeFiles/cmTC_7548e.dir/build
+Building CXX object CMakeFiles/cmTC_7548e.dir/src.cxx.o
+/Library/Developer/CommandLineTools/usr/bin/c++    -DCOMPILER_HAS_HIDDEN_VISIBILITY -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX10.14.sdk   -fvisibility=hidden -o CMakeFiles/cmTC_7548e.dir/src.cxx.o -c /Users/xiezili/Desktop/courses/418/exe/computer-graphics-ray-tracing/cmake-build-debug/CMakeFiles/CMakeTmp/src.cxx
+Linking CXX executable cmTC_7548e
+/Applications/CLion.app/Contents/bin/cmake/mac/bin/cmake -E cmake_link_script CMakeFiles/cmTC_7548e.dir/link.txt --verbose=1
+/Library/Developer/CommandLineTools/usr/bin/c++   -DCOMPILER_HAS_HIDDEN_VISIBILITY -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX10.14.sdk -Wl,-search_paths_first -Wl,-headerpad_max_install_names   CMakeFiles/cmTC_7548e.dir/src.cxx.o  -o cmTC_7548e 
+
+Source file was:
+int main() { return 0; }
+Performing C++ SOURCE FILE Test COMPILER_HAS_HIDDEN_INLINE_VISIBILITY succeeded with the following output:
+Change Dir: /Users/xiezili/Desktop/courses/418/exe/computer-graphics-ray-tracing/cmake-build-debug/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_6cea6/fast"
+/Library/Developer/CommandLineTools/usr/bin/make -f CMakeFiles/cmTC_6cea6.dir/build.make CMakeFiles/cmTC_6cea6.dir/build
+Building CXX object CMakeFiles/cmTC_6cea6.dir/src.cxx.o
+/Library/Developer/CommandLineTools/usr/bin/c++    -DCOMPILER_HAS_HIDDEN_INLINE_VISIBILITY -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX10.14.sdk   -fvisibility-inlines-hidden -o CMakeFiles/cmTC_6cea6.dir/src.cxx.o -c /Users/xiezili/Desktop/courses/418/exe/computer-graphics-ray-tracing/cmake-build-debug/CMakeFiles/CMakeTmp/src.cxx
+Linking CXX executable cmTC_6cea6
+/Applications/CLion.app/Contents/bin/cmake/mac/bin/cmake -E cmake_link_script CMakeFiles/cmTC_6cea6.dir/link.txt --verbose=1
+/Library/Developer/CommandLineTools/usr/bin/c++   -DCOMPILER_HAS_HIDDEN_INLINE_VISIBILITY -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX10.14.sdk -Wl,-search_paths_first -Wl,-headerpad_max_install_names   CMakeFiles/cmTC_6cea6.dir/src.cxx.o  -o cmTC_6cea6 
+
+Source file was:
+int main() { return 0; }
+Performing C++ SOURCE FILE Test COMPILER_HAS_DEPRECATED_ATTR succeeded with the following output:
+Change Dir: /Users/xiezili/Desktop/courses/418/exe/computer-graphics-ray-tracing/cmake-build-debug/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_429b2/fast"
+/Library/Developer/CommandLineTools/usr/bin/make -f CMakeFiles/cmTC_429b2.dir/build.make CMakeFiles/cmTC_429b2.dir/build
+Building CXX object CMakeFiles/cmTC_429b2.dir/src.cxx.o
+/Library/Developer/CommandLineTools/usr/bin/c++    -DCOMPILER_HAS_DEPRECATED_ATTR -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX10.14.sdk   -o CMakeFiles/cmTC_429b2.dir/src.cxx.o -c /Users/xiezili/Desktop/courses/418/exe/computer-graphics-ray-tracing/cmake-build-debug/CMakeFiles/CMakeTmp/src.cxx
+/Users/xiezili/Desktop/courses/418/exe/computer-graphics-ray-tracing/cmake-build-debug/CMakeFiles/CMakeTmp/src.cxx:2:25: warning: 'somefunc' is deprecated [-Wdeprecated-declarations]
+    int main() { return somefunc();}
+                        ^
+/Users/xiezili/Desktop/courses/418/exe/computer-graphics-ray-tracing/cmake-build-debug/CMakeFiles/CMakeTmp/src.cxx:1:16: note: 'somefunc' has been explicitly marked deprecated here
+__attribute__((__deprecated__)) int somefunc() { return 0; }
+               ^
+1 warning generated.
+Linking CXX executable cmTC_429b2
+/Applications/CLion.app/Contents/bin/cmake/mac/bin/cmake -E cmake_link_script CMakeFiles/cmTC_429b2.dir/link.txt --verbose=1
+/Library/Developer/CommandLineTools/usr/bin/c++   -DCOMPILER_HAS_DEPRECATED_ATTR -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX10.14.sdk -Wl,-search_paths_first -Wl,-headerpad_max_install_names   CMakeFiles/cmTC_429b2.dir/src.cxx.o  -o cmTC_429b2 
+
+Source file was:
+__attribute__((__deprecated__)) int somefunc() { return 0; }
+    int main() { return somefunc();}

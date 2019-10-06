@@ -1,6 +1,7 @@
 #ifndef PLANE_H
 #define PLANE_H
 
+#include <vector>
 #include "Object.h"
 #include <Eigen/Core>
 
@@ -11,6 +12,10 @@ class Plane : public Object
     Eigen::Vector3d point;
     // Normal of plane
     Eigen::Vector3d normal;
+
+    std::string texture;
+    std::vector<unsigned char> texture_data;
+    int texture_width, texture_height;
   // Intersect plane with ray.
   //
   // Inputs:
@@ -22,6 +27,7 @@ class Plane : public Object
   // Returns iff there a first intersection is found.
   bool intersect(
     const Ray & ray, const double min_t, double & t, Eigen::Vector3d & n) const;
+  Eigen::Vector3d set_texture_color( Eigen::Vector3d p) const;
 };
 
 #endif

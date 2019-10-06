@@ -20,6 +20,7 @@ class Triangle : public Object
     // Returns iff there a first intersection is found.
     bool intersect(
       const Ray & ray, const double min_t, double & t, Eigen::Vector3d & n) const;
+    Eigen::Vector3d set_texture_color( Eigen::Vector3d p) const;
 };
 
 #endif
